@@ -1,0 +1,122 @@
+.tableContainer {
+    width: 80%;
+    margin: 1.5rem auto;
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: 0 4px 8px rgba(240, 221, 221, 0.1);
+}
+
+.filterIcon {
+    display: inline-block;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.filterIcon:hover {
+    background-color: var(--primary);
+
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.thead {
+    background-color: var(--dark);
+    color: #fff;
+}
+
+.thead th {
+    padding: .7rem;
+    text-align: left;
+}
+
+.tbody .row {
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tbody .row:hover {
+    background-color: var(--bs-light);
+}
+
+.tbody td {
+    padding: .5rem;
+    border-bottom: 1px solid var(--secondary);
+}
+
+.tfoot {
+    background-color: var(--dark);
+    color: #fff;
+}
+
+.tfoot td {
+    padding: 12px;
+    font-weight: bold;
+}
+
+.tfoot td[colspan="2"] {
+    text-align: center;
+}
+
+/* ExpenseTable.module.css */
+
+.thead {
+    background-color: var(--dark);
+    color: #fff;
+}
+
+.titleColumn,
+.amountColumn,
+.dateColumn {
+    position: relative;
+}
+
+.filterInput,
+.filterSelect {
+    margin-top: 5px;
+    display: block;
+    padding: 5px;
+    border: 1px solid var(--secondary);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.sortButton {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.arrowUp,
+.arrowDown {
+    color: var(--primary);
+    margin-left: 5px;
+}
+
+.arrowUp {
+    transform: rotate(0deg);
+}
+
+.arrowDown {
+    transform: rotate(180deg);
+}
+
+.filterInput {
+    width: 150px;
+    /* Adjust as needed */
+}
+
+.filterSelect {
+    width: 80%;
+    /* Adjust as needed */
+}
+
+.dateColumn {
+    position: relative;
+}

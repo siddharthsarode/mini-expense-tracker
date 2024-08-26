@@ -1,0 +1,8 @@
+#navbarContainer {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    backdrop-filter: blur(5px);
+}
+
+.navLink {
+    background-color: red;
+}

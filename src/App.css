@@ -1,0 +1,20 @@
+:root {
+    --primary: #28998b;
+    --secondary: #09514c;
+    --gn: #98c455;
+    --dark: #063437;
+    --dn-dark: #62a244;
+}
+
+.error-text {
+    color: red;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    border-color: var(--primary);
+}
