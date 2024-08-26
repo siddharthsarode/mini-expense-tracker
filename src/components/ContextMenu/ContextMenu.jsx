@@ -48,13 +48,22 @@ function ContextMenu({
                 ...contextMenuPosition,
             }}
         >
-            <p onClick={editTableRow} className="border-bottom px-3 py-2 m-0">
+            <p
+                onClick={editTableRow}
+                className="border-bottom text-white px-3 py-2 m-0"
+            >
                 Edit
             </p>
-            <p onClick={deleteTableRow} className="border-bottom px-3 py-2 m-0">
+            <p
+                onClick={deleteTableRow}
+                className="border-bottom text-white px-3 py-2 m-0"
+            >
                 Delete
             </p>
-            <p onClick={deleteAll} className="border-bottom px-3 py-2 m-0">
+            <p
+                onClick={deleteAll}
+                className="border-bottom text-white px-3 py-2 m-0"
+            >
                 Delete All
             </p>
         </div>
