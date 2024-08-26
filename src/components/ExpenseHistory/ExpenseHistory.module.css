@@ -120,3 +120,47 @@
 .dateColumn {
     position: relative;
 }
+
+
+/* Table pagination */
+/* ExpenseHistory.module.css */
+
+/* Pagination container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+/* Pagination buttons */
+.pageButton {
+    background-color: #28998b;
+    /* Primary color */
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.pageButton:hover {
+    background-color: #09514c;
+    /* Darker shade of primary color */
+}
+
+.pageButton:disabled {
+    background-color: #6c757d;
+    /* Gray color for disabled state */
+    cursor: not-allowed;
+}
+
+/* Active page button */
+.pageButton:disabled {
+    background-color: #98c455;
+    /* Green color */
+    cursor: not-allowed;
+}
