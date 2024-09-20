@@ -20,7 +20,7 @@ function ExpenseForm({ setExpenses }) {
         category: [{ required: true, msg: "Category is Required." }],
         amount: [
             { required: true, msg: "Amount is Required" },
-            { pattern: /^-?\d+(\.\d+)?$/, msg: "Invalid Amount" },
+            { pattern: /^\d+(.\d+)?$/, msg: "Invalid Amount" },
         ],
         date: [{ required: true, msg: "Date is Required." }],
     };

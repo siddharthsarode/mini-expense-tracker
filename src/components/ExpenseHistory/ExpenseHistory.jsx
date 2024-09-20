@@ -19,7 +19,7 @@ function ExpenseHistory({ expenses, setExpenses }) {
 
     // Pagination state
     const [currentPage, setCurrentPage] = useState(1);
-    const rowsPerPage = 7;
+    const rowsPerPage = 10;
 
     // Custom hooks
     const [filteredExpenses, setQuery] = useFilter(expenses, (data) => {
